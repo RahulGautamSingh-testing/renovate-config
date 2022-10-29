@@ -24,6 +24,10 @@
     {
       "matchPaths": ["**/__fixtures__/**"],
       "enabled": false
+    },
+    {
+    "matchPackageNames": ["safe-stable-stringify"],
+      "enabled": false
     }
   ],
   "labels": ["deps"]
