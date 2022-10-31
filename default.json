@@ -4,7 +4,7 @@
   "automergeType": "pr",
   "prCreation": "immediate",
   "pinDigests": true,
-  "ignoreDeps": ["safe-stable-stringify"],
+  "ignoreDeps": ["xmldoc"],
   "packageRules": [
     {
       "matchPackageNames": ["containerbase/node"],
