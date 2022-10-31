@@ -1,31 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "semanticCommitScope": "deps",
-  "automergeType": "pr",
-  "prCreation": "immediate",
-  "pinDigests": true,
-  "ignoreDeps": ["xmldoc"],
-  "packageRules": [
-    {
-      "matchPackageNames": ["containerbase/node"],
-      "versioning": "node"
-    },
-    {
-      "matchDepTypes": ["dependencies"],
-      "semanticCommitType": "build"
-    },
-    {
-      "matchPackageNames": ["semantic-release"],
-      "semanticCommitType": "build"
-    },
-    {
-      "matchPackageNames": ["@types/jest"],
-      "groupName": "jest monorepo"
-    },
-    {
-      "matchPaths": ["**/__fixtures__/**"],
-      "enabled": false
-    }
-  ],
-  "labels": ["deps"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
